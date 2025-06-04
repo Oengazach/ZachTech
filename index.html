@@ -11,138 +11,119 @@
             --whatsapp-light: #DCF8C6;
         }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
+            line-height: 1.6;
         }
         header {
             background: linear-gradient(135deg, var(--whatsapp-dark), var(--whatsapp-green));
             color: white;
             text-align: center;
-            padding: 2rem 0;
+            padding: 3rem 1rem;
         }
         .container {
-            width: 90%;
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
-        }
-        .hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        .hero p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
+            padding: 0 1rem;
         }
         .cta-button {
             display: inline-block;
-            background-color: white;
+            background: white;
             color: var(--whatsapp-dark);
-            padding: 0.8rem 1.5rem;
+            padding: 12px 25px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: bold;
-            transition: all 0.3s;
+            margin-top: 1rem;
+            transition: transform 0.3s;
         }
         .cta-button:hover {
-            background-color: var(--whatsapp-light);
             transform: scale(1.05);
         }
         section {
-            padding: 3rem 0;
+            padding: 2rem 0;
         }
         .features {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
         }
         .feature-card {
             background: white;
-            border-radius: 10px;
+            border-radius: 8px;
             padding: 1.5rem;
-            width: 300px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-        }
-        .feature-card:hover {
-            transform: translateY(-10px);
-        }
-        .feature-card h3 {
-            color: var(--whatsapp-dark);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
         }
         footer {
-            background-color: var(--whatsapp-dark);
+            background: var(--whatsapp-dark);
             color: white;
             text-align: center;
-            padding: 1.5rem 0;
+            padding: 2rem 0;
             margin-top: 2rem;
         }
         .whatsapp-float {
             position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            background-color: var(--whatsapp-green);
+            bottom: 20px;
+            right: 20px;
+            background: var(--whatsapp-green);
             color: white;
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            text-align: center;
-            font-size: 2rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             display: flex;
             align-items: center;
             justify-content: center;
-            text-decoration: none;
+            font-size: 24px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
             z-index: 100;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="container hero">
-            <h1>Powerful WhatsApp Bots for Your Business</h1>
-            <p>Automate chats, orders, and support with our AI-driven WhatsApp bots.</p>
-            <a href="https://wa.me/254792547921" class="cta-button">Contact Me on WhatsApp</a>
+        <div class="container">
+            <h1>Advanced WhatsApp Bot Solutions</h1>
+            <p>Automate customer support, orders, and marketing with our AI-powered bots</p>
+            <a href="https://wa.me/254792547921" class="cta-button">Contact on WhatsApp</a>
         </div>
     </header>
 
     <section class="container">
-        <h2 style="text-align: center;">Features</h2>
+        <h2>Key Features</h2>
         <div class="features">
             <div class="feature-card">
-                <h3>24/7 Automated Replies</h3>
-                <p>Never miss a customer message with instant AI responses.</p>
+                <h3>🤖 24/7 Automation</h3>
+                <p>Instant responses  anytime, day or night.</p>
             </div>
             <div class="feature-card">
-                <h3>Stay online 24/7</h3>
-                <p>Let your bot stay online 24/7.</p>
+                <h3>🛒 E-Commerce Integration</h3>
+                <p>Process orders and payments directly through WhatsApp.</p>
             </div>
             <div class="feature-card">
-                <h3>Multi-Language Support</h3>
-                <p>Serve customers in their preferred language.</p>
+                <h3>📊 Analytics Dashboard</h3>
+                <p>Track conversations, conversions, and customer data.</p>
             </div>
         </div>
     </section>
 
-    <section class="container" style="background-color: white; border-radius: 10px; padding: 2rem;">
-        <h2 style="text-align: center;">How It Works</h2>
-        <ol style="line-height: 2;">
-            <li><strong>Contact me</strong> via WhatsApp (+254792547921) to deploy your bot.</li>
-            <li><strong>Choose any bot of your choice</strong> (one-time or subscription).</li>
-            <li><strong>Get your bot deployed</strong> within 10 minutes!</li>
+    <section class="container" style="background: #f9f9f9; border-radius: 8px;">
+        <h2>How It Works</h2>
+        <ol>
+            <li>Contact me  +254792547921 on WhatsApp</li>
+            <li>Discuss your requirements</li>
+            <li>Get your bot deployed within 10 minutes</li>
         </ol>
     </section>
 
     <footer>
         <div class="container">
-            <p>© 2025 ZachTech WhatsApp Bot Services. All rights reserved.</p>
-            <p>Contact: <a href="https://wa.me/254792547921" style="color: var(--whatsapp-light);">+254792547921</a></p>
+            <p>© 2025 ZachTech WhatsApp Bot Services</p>
+            <p>Direct Contact: <a href="https://wa.me/254792547921" style="color: var(--whatsapp-light);">+254 792 547921</a></p>
         </div>
     </footer>
 
     <a href="https://wa.me/254792547921" class="whatsapp-float">💬</a>
 </body>
-        </html>
+</html>
