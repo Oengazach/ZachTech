@@ -9,6 +9,7 @@
             --whatsapp-green: #25D366;
             --whatsapp-dark: #075E54;
             --whatsapp-light: #DCF8C6;
+            --mpesa-green: #00B300;
         }
         body {
             font-family: 'Segoe UI', sans-serif;
@@ -38,6 +39,22 @@
             margin-top: 1rem;
             transition: transform 0.3s;
         }
+        .mpesa-button {
+            background: var(--mpesa-green);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .mpesa-button:hover {
+            background: #008000;
+            transform: scale(1.05);
+        }
         .cta-button:hover {
             transform: scale(1.05);
         }
@@ -55,6 +72,14 @@
             border-radius: 8px;
             padding: 1.5rem;
             box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        .pricing-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            margin-top: 2rem;
         }
         footer {
             background: var(--whatsapp-dark);
@@ -85,7 +110,7 @@
     <header>
         <div class="container">
             <h1>Advanced WhatsApp Bot Solutions</h1>
-            <p>Automate customer support, conversations, and marketing with our AI-powered bots</p>
+            <p>Automate customer support, orders, and marketing with our AI-powered bots</p>
             <a href="https://wa.me/254792547921" class="cta-button">Contact on WhatsApp</a>
         </div>
     </header>
@@ -95,32 +120,43 @@
         <div class="features">
             <div class="feature-card">
                 <h3>🤖 24/7 Automation</h3>
-                <p>Instant responses  anytime, day or night.</p>
+                <p>Instant responses to customer queries anytime, day or night.</p>
             </div>
             <div class="feature-card">
-                <h3>📶 Presence</h3>
-                <p>Stay online 24/7.</p>
+                <h3>🛒 E-Commerce Integration</h3>
+                <p>Process orders and payments directly through WhatsApp.</p>
             </div>
             <div class="feature-card">
-                <h3>🎛 Manage Your Groups</h3>
-                <p>Track conversations by setting automated restrictions eg antilink,spams.</p>
+                <h3>📊 Analytics Dashboard</h3>
+                <p>Track conversations, conversions, and customer data.</p>
             </div>
         </div>
     </section>
 
+    <section class="container">
+        <h2>Pricing & Payment</h2>
+        <div class="pricing-card">
+            <h3>Basic WhatsApp Bot Package</h3>
+            <p><strong>KSh 100</strong> one-time setup</p>
+            <p>Includes all essential features</p>
+            <a href="tel:*234*1*254792547921*100#" class="mpesa-button">Pay via M-Pesa</a>
+            <p><small>OR Pay via Binance(dm for id) </small></p>
+        </div>
+    </section>
+
     <section class="container" style="background: #f9f9f9; border-radius: 8px;">
-        <h2>How To purchase</h2>
+        <h2>How It Works</h2>
         <ol>
             <li>Send "Hi" to +254792547921 on WhatsApp</li>
             <li>Discuss your requirements</li>
-            <li>Choose any bot of your choice</li>
-            <li>Get your bot deployed within 10 minutes</li>
+            <li>Make payment via M-Pesa</li>
+            <li>Get your bot deployed within 24 hours</li>
         </ol>
     </section>
 
     <footer>
         <div class="container">
-            <p>© 2025 ZachTech WhatsApp Bot Services</p>
+            <p>© 2024 ZachTech WhatsApp Bot Services</p>
             <p>Direct Contact: <a href="https://wa.me/254792547921" style="color: var(--whatsapp-light);">+254 792 547921</a></p>
         </div>
     </footer>
